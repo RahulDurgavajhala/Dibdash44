@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html class="t">
+  <b>
+<head > <title>Dib Dash</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<b>
+<body class="t">
+    
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+  
+    <div class="navbar-header">
+     
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+      <a  id="t3"    class="navbar-brand" href="#">Dib Dash</a>
+     
+    
+    </div>
+   
+    
+    <div class="collapse navbar-collapse" id="myNavbar" >
+      <ul class="nav navbar-nav">
+        
+        <li><a href="#MENU" class="mnu" >MENU</a></li>
+        <li><a href="#DRINKS" class="mnu">DRINKS</a></li>
+        <li><a href="#R" class="mnu">REVIEWS</a></li></a></li>
+        <li><a href="#D" class="mnu">DELIVERIES</a></li></a></li>
+        <li><a href="#S" class="mnu">SEARCH</a></li></a></li>
+
+        
+
+
+</ul>
+        
+      
+        
+        
+        
+
+      </ul>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      body {font-family: Arial, Helvetica, sans-serif;}
+      * {box-sizing: border-box;}
+      
+      /* Button used to open the contact form - fixed at the bottom of the page */
+      .open-button {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.8;
+        position: fixed;
+        bottom: 23px;
+        right: 28px;
+        width: 280px;
+      }
+      
+      /* The popup form - hidden by default */
+      .form-popup {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        right: 15px;
+        border: 3px solid #f1f1f1;
+        z-index: 9;
+      }
+      
+      /* Add styles to the form container */
+      .form-container {
+        max-width: 300px;
+        padding: 10px;
+        background-color: white;
+      }
+      
+      /* Full-width input fields */
+      .form-container input[type=text], .form-container input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+      }
+      
+      /* When the inputs get focus, do something */
+      .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+      
+      /* Set a style for the submit/login button */
+      .form-container .btn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom:10px;
+        opacity: 0.8;
+      }
+      
+      /* Add a red background color to the cancel button */
+      .form-container .cancel {
+        background-color: red;
+      }
+      
+      /* Add some hover effects to buttons */
+      .form-container .btn:hover, .open-button:hover {
+        opacity: 1;
+      }
+      </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      <div id="overlay"></div>
+
+
+      <center>
+
+        <button style="width: 100px;" class="open-button" onclick="openForm()">Login</button>
+        
+        <div class="form-popup" id="myForm">
+          <form action="/action_page.php" class="form-container">
+            <h1>Login</h1>
+        
+            <label for="email"></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+        
+            <label id="myInput" type="text" value="Hello World"   for="psw"></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <!-- The button used to copy the text -->
+<b>
+<script>
+  function myFunction() {
+    // Get the text field
+    var copyText = document.getElementById("myInput");
+  
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+    
+    // Alert the copied text
+    alert("Copied the text: " + copyText.value);
+  }
+  </script>
+            <button type="submit" class="btn">Login</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+        
+        <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+        </script>
+        </center>
+      <button class="btn success" id="ghed" onclick="myButton()">Upgrade</button>
+
+      <div id="img">
+        <img href="#" class="ljublajana" id="frs" src="https://www.harvesters.org/wp-content/uploads/2021/06/key-icon-kitchen.png" width="75" height="70">
+        </div>
+    </div>
+  </b>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+    
+
+</nav>
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <span>Alert: This website is still undergoing changes and new additions to the menu. We ask you for your patience. Thank you! - Dib Dash Headquarters</span>
+</div>
+
+<div class="aglert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  Alert: This website may not work on devices such as phones, tablets, etc., but will work on computers. This problem will soon be fixed.
+</div>
+ 
+<div class="aglfert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  Alert: To order, please contact us at +1 480 - 132 - 324. If you have more questions, please use our AI chatbot at the bottom of the website.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+  <b> <strong></strong>
+    <h2 id="MENU"    class="PHB"><b>MENU</b></h2>
+    <br>
+  </b></strong>
+  
+  <div id="sed"  class="card">
+    <img  class="leb" src="https://funwithoutfodmaps.com/wp-content/uploads/2022/07/Low-FODMAP-Beef-Tacos-Square.jpg" alt="Avatar" width="450" height="400">
+    <div class="container">
+      <h4 ><b>#1:The Dib Taco</b></h4>
+      <p id="Taco">Ingredients: Taco(Drinks Included):
+        Beans.    
+        Lettuce.
+        0.127 grains of rice.
+        Sour Cream.
+        Tomato.
+        Soft tortilla wrap.
+     </p>
+     <p>   Price:
+      2.50$ Per Taco (12 Taco Limit)</p>
+    </div>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<span style="margin-left: 6%;" class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+  </div>
+  </div>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="card">
+  <img  class="leb" src="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg?w=2000" alt="Avatar"  width="600" height="400">
+  <div class="container">
+    <h4 ><b>#2:The Dib Pizza</b></h4>
+    <p id="Taco">Ingredients: Pizza(Drinks Included):
+Vegan pepperoni.    
+Mushrooms.
+Cheese.
+Red Pizza Sauce.
+Red Peppers.
+Olives.
+Bell Peppers.
+Onion.
+
+   </p>
+   <p>   Price:
+  (Family Sized Pizza) 18.49$
+  </div>
+  <span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+
+</div>
+    
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div class="card">
+  <img  class="leb" src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/02/05/Baked-Feta-Pasta-4_s4x3.jpg.rend.hgtvcom.616.493.suffix/1615916524567.jpeg" width="400" height="350"" alt="Avatar"  width="600" height="400">
+  <div class="container">
+    <h4 ><b>#3:The Dib Pasta</b></h4>
+    <p id="Taco">Ingredients: Pasta:
+Dough, wheat, flour, water, eggs, rice, flour, legumes, beans, lentils, dried mushrooms, dried tomatoes, sautéd onions, basil.
+
+   </p>
+   <p>  Price:
+   12.99$
+  </div>
+  <span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<div class="card">
+  <img  class="leb" src="https://www.allrecipes.com/thmb/CBOcP0zp71lR2bn-KUMkgCB92RA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/24228-Sushi-roll-ddmfs-4x3-2914-1839f746d9334814a7a5d93ed45ba082.jpg" width="550" alt="Avatar"  width="600" height="400">
+  <div class="container">
+    <h4 ><b>#4:The Dib Sushi</b></h4>
+    <p id="Taco">Ingredients: Pasta:
+Rice, Soy Sauce, Avacado, Sea Weed, Cucumber.
+
+   </p>
+<p>
+Price:
+   15.00$
+  </div>
+  <span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<div class="card">
+  <img  class="leb" src="https://www.seriouseats.com/thmb/IBikLAGkkP2QVaF3vLIk_LeNqHM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rich-and-creamy-tonkotsu-ramen-broth-from-scratch-recipe-Diana-Chistruga-hero-6d318fadcca64cc9ac3e1c40fc7682fb.JPG" width="559" height="400">
+  <div class="container">
+    <h4 ><b>#5:The Dib Ramen</b></h4>
+    <p id="Taco">Ingredients: Ramen:
+Dough.
+Noodles.
+Eggs.
+Carrot.
+Tomato.
+Onion.
+Ramen juice.
+Rice cake.
+Spinach.
+Brussel Sprouts.
+
+   </p>
+<p>
+Price:
+7.24$
+  </div>
+  <span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+<span class="fa fa-star checked" class="BSE"></span>
+</div>
+
+
+</b>
+
+<h2  id="DRINKS"  class="PHB"><b>DRINKS</b></h2>
+<br>
+
+
+<div class="card">
+  <img  class="leb" src="https://cdnimg.webstaurantstore.com/images/products/large/473860/1928124.jpg" width="500" height="400">
+  <div class="container">
+    <h4 ><b>#1: Coca Cola</b></h4>
+    <p>Price: 3.00$</p>
+    <p id="Taco">
+  </div>
+</div> 
+<br>
+<br>
+<br>
+<br>
+
+<div class="card">
+  <img  class="leb" src="https://static.news.bitcoin.com/wp-content/uploads/2021/12/image-2021-12-09-100057.jpg" width="600" height="400">
+  <div class="container">
+    <h4 ><b>#2: Pepsi Cola</b></h4>
+    <p>Price: 3.00$</p>
+    <p id="Taco">
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<div class="card">
+  <img  class="leb" src="https://ucarecdn.com/65a5c249-0a78-43dd-b035-238311381538/-/crop/1581x888/0,30/-/preview/" width="600" height="400">
+  <div class="container">
+    <h4 ><b>#3: Sprite</b></h4>
+    <p>Price: 3.00$</p>
+    <p id="Taco">
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<div class="card">
+  <img  class="leb" src="https://eugenesdiner.com/wp-content/uploads/2023/01/Dr-Pepper-Soda-Can-Soda-Beverage-Drink-Refreshment-3581645.jpg" width="600" height="400">
+  <div class="container">
+    <h4 ><b>#4: Dr. Pepper</b></h4>
+    <p>Price: 3.00$</p>
+    <p id="Taco">
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<span >
+
+
+
+</b>
+</b>
+
+
+<div id="gorh">
+
+
+<center>
+<iframe id="sonk" class="card"
+    allow="microphone;"
+    width="10"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/05be06b1-5dff-4040-a79a-dcbce9275eb4">
+</iframe>
+</center>
+
+
+<h2  id="R"  class="PHB"><b>REVIEWS</b></h2>
+<br>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<b>
+<span class="heading">User Ratings for Dib Dash (2023)</span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>4.1 average based on 19,473,673 reviews.</p>
+<hr style="border:3px solid #f1f1f1">
+
+<div class="row">
+  <div class="side">
+    <div>5 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+  </div>
+  <div class="side right">
+
+  </div>
+  <div class="side">
+    <div>4 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-4"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>63</div>
+  </div>
+  <div class="side">
+    <div>3 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-3"></div>
+    </div>
+  </div>
+  <div class="side right">
+
+  </div>
+  <div class="side">
+    <div>2 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-2"></div>
+    </div>
+  </div>
+  <div class="side right">
+ 
+  </div>
+  <div class="side">
+    <div>1 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+
+  </div>
+</div>
+
+
+
+
+
+<!-- Button to open the modal login form -->
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname"  id="aadadde" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="ff"  required>
+
+      <button class="fffff" id="ddd" type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#323232">
+      <button class="fffff"   type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+
+<h2 id="D"    class="PHB"><b>DELEIVERIES</b></h2>
+<br>
+
+<h3 id="hfe">Choose One(You can change your choice any time you want, but you will not get the included free orders):</h3>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">#1</li>
+    <li class="grey">$12.99</li>
+    <li>0% Time Off On Deleiveries</li>
+    <li>2 Free orders</li>
+ 
+    
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+<div class="columns">
+  <ul class="price">
+    <li class="header">#2 </li>
+    <li class="grey">$20.49</li>
+    <li>25% Time Off Deleiveries</li>
+    <li>3 Free orders</li>
+  
+   
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+<div class="columns">
+  <ul class="price">
+    <li class="header">#3</li>
+    <li class="grey">$30.67</li>
+    <li>45% Time Off Deleiveries</li>
+    <li>5 Free orders</li>
+  
+
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+<h2 id="S"    class="PHB"><b>SEARCH</b></h2>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search our menu..." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="#">Dib Taco</a></li>
+  <li><a href="#">Dib Pizza</a></li>
+
+  <li><a href="#">Dib Sushi</a></li>
+  <li><a href="#">Dib Ramen</a></li>
+
+
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h5 id="gtf"><b>©2023  Dib Dash IP Holder, LLC. All Rights Reserved.</b></h5>
+</b>
+
+
+
+

@@ -1,0 +1,571 @@
+.PHB{
+    text-align: center;
+    font-family: cursive;
+         
+}
+#myNavbar{
+  color: #04AA6D;
+  background-color: whitesmoke;
+}
+
+.t{
+   background-color:whitesmoke ;
+   color: #04AA6D;
+   font-family:cursive ;
+   
+
+
+}
+card
+
+#selwel{
+    border-radius: 10%;
+    text-align: center;
+}
+
+#bombchik{
+    border-radius: 10%;
+    text-align: center;
+}
+#gorg{
+   text-align: center;
+   color: #04AA6D;
+   border-width: 100000;
+}
+.t3{
+    text-align: center;
+}
+
+.leb{
+    border-radius: 45px;
+    border-color: #04AA6D;
+    border-style: ridge;
+    border: 50%;
+    margin: 0%;
+  
+
+}
+.y{
+    text-align: center;
+    border-radius: 10%;
+    align-self: center;
+}
+.ljublajana{
+    float: left 100%;
+    position: relative;
+
+}
+#img{
+    float: right !important;
+    margin-right: 0;
+}
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #ffae00; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: whitesmoke;
+  }
+  .gorh {
+align-self: center;
+padding: 10000px;
+margin: 10%;
+
+
+  }
+  #sonk{
+    margin: 1%;
+    border:110cap;
+    border-radius: 45px;
+    text-align: center;
+    align-self: center;
+  width: 40%;
+
+  }
+  #frs{
+    margin-bottom: 15px;
+  }
+ 
+  .ful{
+    margin: 1%;
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 grey;
+    transition: 0.3s;
+    width: 45%;
+    border-radius: 45px;
+    margin: 1.9%;
+
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 #04AA6D;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  #Taco{
+    width: 40%;
+  }
+  /* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid whitesmoke
+}
+
+.aglert {
+  padding: 20px;
+  background-color: #286cda; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+.aglfert{
+  padding: 20px;
+  background-color: #ff0000; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#gtf{
+  margin: 10px;
+  float: right;
+}
+.checked {
+  color: orange;
+  margin: 6%;
+}
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+  margin: 1.1%;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #323232;
+  text-align: center;
+  color: rgb(57, 56, 56);
+}
+
+/* Individual bars */
+.bar-5 {width: 67%; height: 18px; background-color: #04AA6D; border-color: black;}
+.bar-4 {width: 34%; height: 18px; background-color: #2196F3; border-color: black;}
+.bar-3 {width: 52%; height: 18px; background-color: #00bcd4; border-color: black;}
+.bar-2 {width: 25%; height: 18px; background-color: #ff9800; border-color: black;}
+.bar-1 {width: 48%; height: 18px; background-color: #f44336; border-color: black;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  /* Hide the right column on small screens */
+  .right {
+    display: none;
+  }
+}
+#gffs{
+  text-align: center;
+  text-decoration: dashed;
+}
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: whitesmoke
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #343434;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #282828;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #000000;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+.fffff{
+  background-color: #259bee;
+  color: rgb(48, 47, 47);
+  border-radius: 25%;
+  width: 67px;
+  height: 36px;
+
+}
+#fffffr{
+  background-color: #259bee;
+  color: rgb(48, 47, 47);
+  border-radius: 25%;
+  width: 100px;
+  height: 50px;
+  box-shadow: #04AA6D;
+
+}
+#rrr{
+margin: 0.5%;
+border-radius: 50%;
+background-color: rgb(48, 47, 47);
+color: red;
+border-color: rgb(48, 47, 47);
+}
+.BSE{
+margin-left: 100%;
+}
+.btn {
+  border: none; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.success {background-color: #04AA6D;} /* Green */
+.success:hover {background-color: #04AA6D;  color: white;}
+
+#ghed{
+  border-radius: 15%;
+  margin: 0.2%;
+}
+.gfer{
+  color: #04AA6D;
+} 
+.ger:hover{
+  color: #282828;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+.bodyid{
+text-align: center;
+
+}  
+#hfe{
+text-align: center;
+color: #04AA6D;
+}
+.mnu:hover {
+color: #000;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+#suksa{
+  
+  margin-bottom: 11%;
+  background-color: #00bcd4;
+}
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+#sed{
+  width: 45%;
+}
